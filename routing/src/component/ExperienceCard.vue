@@ -16,15 +16,16 @@ export default {
 
 <style scoped>
 .experience-card {
-    width: 350px;
+    width: 400px;
     border-radius: 20px;
-    padding: 25px;
+    padding: 30px;
     box-shadow: inset 0px 0px 20px 5px #7c7777;
 }
 .car{
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
-   padding: 10px;
+    margin: 13px;
 }
 </style>
