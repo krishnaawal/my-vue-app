@@ -26,7 +26,8 @@ p {
     font-size: 18px;
     line-height: 1.6;
     color: #333;
-    margin: 3%;
+    margin: 0%;
     text-align: justify;
+    padding: 40px;
 }
 </style>

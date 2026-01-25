@@ -5,19 +5,26 @@ export default {
 }
 </script>
 <template>
-    <div class="experience-card">
-        <h2>{{ title }}</h2>
-       <span>{{ description }}</span><br>
-       <span>{{ year }}</span>
+    <div class="car">
+        <div class="experience-card">
+            <h2>{{ title }}</h2>
+            <span>{{ description }}</span><br>
+            <span>{{ year }}</span>
+        </div>
     </div>
 </template>
 
 <style scoped>
 .experience-card {
-    border: 2px solid rgb(72, 68, 68);
-    width: 400px;
+    width: 350px;
     border-radius: 20px;
-    padding: 20px;
-    margin: 20px;
+    padding: 25px;
+    box-shadow: inset 0px 0px 20px 5px #7c7777;
+}
+.car{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   padding: 10px;
 }
 </style>
